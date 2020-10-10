@@ -45,6 +45,9 @@ public class MosB {
 
     /**
      * Валидирует данные по условию задачи
+     * @param number исходное число
+     * @param res исходная система
+     * @param target целевая система
      * @return true, если все верно, иначе false
      */
     public static boolean isValid(String number, int res, int target) {
